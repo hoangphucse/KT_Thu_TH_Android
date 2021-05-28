@@ -33,13 +33,13 @@
         android:layout_width="128dp"
         android:layout_height="31dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/tv_Gender"
+        app:layout_constraintBottom_toTopOf="@+id/tv_Age"
         app:layout_constraintEnd_toEndOf="@+id/tv_Id"
         app:layout_constraintStart_toStartOf="@+id/tv_Id"
         app:layout_constraintTop_toBottomOf="@+id/tv_Id" />
 
     <TextView
-        android:id="@+id/tv_Gender"
+        android:id="@+id/tv_Age"
         android:layout_width="128dp"
         android:layout_height="31dp"
         android:text="TextView"

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addUser">
+
+    <EditText
+        android:id="@+id/name_them"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/id_them"
+        app:layout_constraintStart_toStartOf="@+id/id_them"
+        app:layout_constraintTop_toBottomOf="@+id/id_them" />
+
+    <EditText
+        android:id="@+id/id_them"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:ems="10"
+        android:hint="ID user"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/age_them"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/name_them"
+        app:layout_constraintStart_toStartOf="@+id/name_them"
+        app:layout_constraintTop_toBottomOf="@+id/name_them" />
+
+    <Button
+        android:id="@+id/btn_submit_add"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:text="SUBMIT"
+        app:layout_constraintEnd_toEndOf="@+id/age_them"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="@+id/age_them"
+        app:layout_constraintTop_toBottomOf="@+id/age_them" />
+</androidx.constraintlayout.widget.ConstraintLayout>

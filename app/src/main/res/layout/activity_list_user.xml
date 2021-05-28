@@ -8,7 +8,7 @@
     tools:context=".List_user">
 
     <Button
-        android:id="@+id/add"
+        android:id="@+id/them_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -23,21 +23,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Xóa"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintStart_toEndOf="@+id/add"
-        app:layout_constraintTop_toTopOf="@+id/button3" />
+        app:layout_constraintBottom_toBottomOf="@+id/sua"
+        app:layout_constraintEnd_toStartOf="@+id/sua"
+        app:layout_constraintStart_toEndOf="@+id/them_user"
+        app:layout_constraintTop_toTopOf="@+id/sua" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/sua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:text="Sửa"
-        app:layout_constraintBottom_toBottomOf="@+id/add"
+        app:layout_constraintBottom_toBottomOf="@+id/them_user"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/add" />
+        app:layout_constraintTop_toTopOf="@+id/them_user" />
 
     <ListView
         android:id="@+id/list_view"

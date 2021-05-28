@@ -48,12 +48,12 @@ public class ListViewAdapter extends BaseAdapter {
         //->go on : ánh xạ view của layout này qua code
         TextView tvId = view.findViewById(R.id.tv_Id);
         TextView tvName = view.findViewById(R.id.tv_Name);
-        TextView tv_Gender = view.findViewById(R.id.tv_Gender);
+        TextView tv_Age = view.findViewById(R.id.tv_Age);
 
         // gán giá trị
         tvId.setText(String.valueOf(arrayList.get(position).getId()));
         tvName.setText(arrayList.get(position).getName());
-        tv_Gender.setText(String.valueOf(arrayList.get(position).isGender()));
+        tv_Age.setText(String.valueOf(arrayList.get(position).getAge()));
 
 
         return view;

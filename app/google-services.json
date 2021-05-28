@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64243826753",
+    "project_id": "thithuth-andoird",
+    "storage_bucket": "thithuth-andoird.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64243826753:android:615763864fc34fe062c6c0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64243826753-fff5e33u8tgndq5uolkqos1b2sdnbb8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ-aiVCZQEbXYARQc5RvJ_6C5HShHXGuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64243826753-fff5e33u8tgndq5uolkqos1b2sdnbb8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
